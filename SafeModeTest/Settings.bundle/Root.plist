@@ -8,20 +8,58 @@
 	<array>
 		<dict>
 			<key>Type</key>
-			<string>PSGroupSpecifier</string>
+			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Group</string>
+			<string>New Aplication</string>
+			<key>Key</key>
+			<string>NEW_APP</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Enter your name:</string>
+			<key>Key</key>
+			<string>YOUR_NAME</string>
 		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Enabled</string>
+			<string>Theme</string>
 			<key>Key</key>
-			<string>safe_mode</string>
+			<string>THEME_MODE</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
-	</array>
+		<dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>Group</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Enabled</string>
+            <key>Key</key>
+            <string>safe_mode2</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        
+        <dict>
+            <key>Type</key>
+            <string>PSChildPaneSpecifier</string>
+            <key>Title</key>
+            <string>Rozwiązywanie problemów</string>
+            <key>File</key>
+            <string>TroubleShooting</string>
+        </dict>
+        
+    </array>
 </dict>
 </plist>
